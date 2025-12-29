@@ -1,0 +1,85 @@
+/* index.css */
+
+/* Crimson Pro */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Alfa Slab One */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common Elements Styling */
+:root {
+    --primary-dark: #1A1E26;
+    --secondary-gold: #B89F6B;
+    --accent-light: #F5F3EF;
+    --hover-gold: #D4B483;
+    --text-dark: #2D2D2D;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Crimson Pro", serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--accent-light);
+    color: var(--text-dark);
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: "Alfa Slab One", serif;
+    letter-spacing: -0.01em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem !important;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1.8rem !important;
+    }
+
+    h3 {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.8rem !important;
+    }
+
+    .MuiButton-root {
+        font-size: 0.9rem !important;
+        padding: 8px 16px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        font-size: 0.8rem !important;
+    }
+
+    h1 {
+        font-size: 1.4rem !important;
+    }
+
+    h2 {
+        font-size: 1.2rem !important;
+    }
+
+    h3 {
+        font-size: 1rem !important;
+    }
+}

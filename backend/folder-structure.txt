@@ -1,0 +1,61 @@
+group-project-spr-2025-g4/
+│
+├── artifacts/
+│
+│      
+├── backend/                         # For Assignment 2.
+│   │
+│   ├── assignment-2-group4/         # Main Back-end Script directory to store JS script.
+│   │   ├── controllers/
+│   │   │   ├── liquorController.js
+│   │   │   └── userController.js
+│   │   ├── middleware/
+│   │   │   └── auth.js
+│   │   ├── models/
+│   │   │   ├── liquorModel.js
+│   │   │   ├── transactionModel.js
+│   │   │   └── userModel.js
+│   │   ├── routes/
+│   │   │   ├── liquorRoutes.js
+│   │   │   └── userRoutes.js
+│   │   ├── node-modules/            # This is generated after npm install.
+│   │   ├── .env                     # .env file to store environment variables (such as DB host, DB password).
+│   │   ├── app.js                   # Main App to run with Node.
+│   │   ├── db.js
+│   │   ├── eventListener.js
+│   │   ├── folder-structure.txt
+│   │   ├── package-lock.json
+│   │   ├── package.json             # Please pay attention to package JSON files, and clone them properly for npm install to work properly.
+│   │   └── seed.js
+│   │
+│   ├── hardhat/                     # Main Hardhat directory to run Hardhat network and deploy the smart contract.
+│   │   ├── contracts/
+│   │   │   └── LiquorTrading.sol    # Solidity contract for trading.
+│   │   ├── node-modules/            # This is generated after npm install.
+│   │   ├── scripts/
+│   │   │   └── deploy.js            # Deployment script.
+│   │   ├── hardhat.config.js
+│   │   ├── package.json             # Please pay attention to package JSON files, and clone them properly for npm install to work properly.
+│   │   └── package-lock.json
+│   ├── README.md                    # README for Assignment 2.
+│   ├── package-lock.json
+│   └── schema.sql
+│
+│
+├── frontend/             
+│   └── assignment-1-group4/  # Main code for Assignment 1.
+│       ├── src/              # Store source code for pages, components, styles, authentication context, and main App. Images are moved to public/assets/.
+│       │
+│       ├── public            # Store images in the assets subfolder.
+│       │   └── assets/
+│       ├── package.json      # Please pay attention to package JSON files, and clone them properly for npm install to work properly.
+│       ├── README.md         # README for Assignment 1.
+│       ├── vite.config.js
+│       ├── eslint.config.js
+│       ├── index.html
+│       ├── eslint.config.js
+│       ├── .gitignore
+│       └── package-lock.json
+│
+├── .gitignore
+└── README.md
